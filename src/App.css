@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.ratio {
+  aspect-ratio: 9/16;
+  object-fit: cover;
+}
+:root {
+  background-color: #212529;
+}
+a {
+  color: rgb(245, 144, 12) !important;
+  text-decoration: none !important; /* no underline */
+}
+.caption {
+  margin-bottom: 50%;
+  margin-top: 50%;
+}
